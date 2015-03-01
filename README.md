@@ -2,6 +2,33 @@
 
 Description goes here.
 
+## Setup
+
+### Initialization
+
+
+
+````:js
+# initialize new editor instance
+var editor = new WaatEditor(); 
+````
+
+You can also pass in two optional parameters:
+1. Element (A single dom element object, an array of dom element objects, or a string with comma separated #IDs or .Classes)
+2. Options (JSON Object) see [Options](#options)
+
+````:js
+# e.g. Create new WaatEditor for specific element with id of #someElementID
+var editor = "#someElementID";
+var options = {...};
+var editor = new WaatEditor(element, options);
+````
+
+## Options
+
+#### Write out options
+
 # TODOs
 
-- Create ````src```` and ````dist````
+- Create ````src```` and ````dist```` folders
+- Create compass config file for sass in ````src/sass/````
