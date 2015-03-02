@@ -44,6 +44,14 @@ waat-editor/sidemenu.js
 
 This is the side context menu that can mutate the current element e.g. change a ````<p>```` to an ````<aside>````.
 
+## Serializer
+
+````:js
+waat-editor/serializer.js
+````
+
+Serialize Dom Element into a JSON object.
+
 # TODOs
 
 - Add Grunt Task runner for compiling JS, SCSS and others
