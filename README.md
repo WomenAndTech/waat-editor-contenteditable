@@ -28,7 +28,23 @@ var editor = new WaatEditor(element, options);
 
 #### Write out options
 
+## Editor Menu (currenly 'menu')
+
+````
+waat-editor/menu.js
+````
+
+This is the WYSIWGY editor menu i.e. text editor tools (Bold, Italic etc.).
+
+## Context Menu (currently 'sidemenu')
+
+````
+waat-editor/sidemenu.js
+````
+
+This is the side context menu that can mutate the current element e.g. change a ````<p>```` to an ````<aside>````.
+
 # TODOs
 
-- Create ````src```` and ````dist```` folders
+- Add Grunt Task runner for compiling JS, SCSS and others
 - Create compass config file for sass in ````src/sass/````
