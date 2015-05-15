@@ -1,6 +1,6 @@
-# Waat-Editor
+# Waat-Editor-Contenteditable
 
-Description goes here.
+Medium Inspired contenteditable WYSIWYG editor and toolbar.
 
 ## Setup
 
